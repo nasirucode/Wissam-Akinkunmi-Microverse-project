@@ -28,9 +28,23 @@
       Thank you for accepting us in Microverse
     </p>
     <form id="survey-form">
-      <input type="text" value="" name="myname" id="name" required>
-      <input type="email" value="" name="email" id="email" required>
-      <input type="number" value="" name="number" id="number" required min="2" max="10">
+      <label id="name-label">name</label>
+      <input type="text" value="" name="myname" id="name" placeholder="name" required>
+      <label id="email-label">Email</label>
+      <input type="email" value="" name="email" id="email" placeholder="email" required>
+      <label id="number-label">Number</label>
+      <input type="number" value="" name="number" id="number" placeholder="number" required min="2" max="10">
+      <select id="dropdown">
+        <option>miller</option>
+        <option>nasir</option>
+      </select>
+      <input type="radio" value="male" name="gender">
+      <input type="radio" value="female" name="gender">
+      <input type="checkbox" value="english" name="lang">
+      <input type="checkbox" value="yoruba" name="lang">
+      <textarea>comment</textarea>
+      <button id="submit" type="submit">submit</button>
+
     </form>
 
 
